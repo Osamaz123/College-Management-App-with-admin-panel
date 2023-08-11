@@ -26,7 +26,3 @@ while users can access this information along with other college-related details
 - Java: Programming language used for developing Android applications.
 - Firebase Realtime Database: Cloud-hosted NoSQL database for backend data storage.
 - Glide Library: Image loading and caching library for smooth image rendering.
-
-## Setup and Installation
-
-1. Clone this repository to your local machine using:
