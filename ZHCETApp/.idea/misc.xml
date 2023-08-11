@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/drawable/bg_overlay.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/drawable/ic_label.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/activity_developers.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/activity_ebook.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/activity_full_image_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/activity_pdf_viewer.xml" value="0.24087591240875914" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/branch_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/drawer_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/ebook_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/faculty_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/fragment_faculty.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/fragment_notice.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/gallery_image.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/news_feed_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/no_data_found.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/layout/slider_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/menu/navigation_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/DELL/Desktop/ZHCETApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/shaha/AndroidStudioProjects/user_app_minor_project/app/src/main/res/layout/fragment_home.xml" value="0.1915269196822595" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

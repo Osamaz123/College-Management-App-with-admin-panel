@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ZHCET App</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/lato_bold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/lato_light</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">start</string>
+    <string name="close">end</string>
+
+    <string name="about_college">this is zhcet</string>
+
+    <string name="computer_engineering">Computer Engineering</string>
+    <string name="electronics_and_communication_engineering">Electronics and Communication Engineering</string>
+    <string name="mechanical_department">Mechanical Department</string>
+    <string name="electrical_department">Electrical Department</string>
+    <string name="civil_department">Civil Department</string>
+    <string name="chemical_department">Chemical Department</string>
+    <string name="petrochemical_department">Petrochemical Department</string>
+    <string name="About_College">The Zakir Husain College of Engineering and Technology (ZHCET) was established in 1935,
+        as a constituent college of the Aligarh Muslim University. The College has a land area of 113 acres and a built-up area of 22960 sq.m.
+        The College\'s excellence was identified out of the 400 institutions across the country and was put in the list of seven selected
+        Institutions to be upgraded to the level of IIT. It has been ranked 21st by the India Today among "India's Best Engineering College 2015".
+        The college has also been ranked 35th in the "Top Engineering Colleges 2015" by Outlook India.\n\n
+    The Zakir Husain College of Engineering and Technology has 11 Departments of studies. Civil, Electrical and Mechanical Departments are offering B.Tech/B.E.(Evening)/M.Tech. and Ph.D. programs.
+        Electronics, Computer, Chemical &amp; Petroleum Studies are offering B.Tech/M.Tech. and Ph.D. programs. Department of Architecture is offering B.Arch. Remaining three Departments
+        (Applied Physics, Applied Chemistry and Applied Mathematics) are support Departments offering M.Tech./M.Phil./Ph.D. programs.</string>
+
+    <string name="CompEngg_desc">The Department of Computer Engineering was created in the Faculty of Engineering in the year 1991.
+        The Department is currently running a B.Tech. programme in Computer Engineering and an M.Tech programme in Computer Science &amp; Engineering
+        with specialization in Software Engineering. The Department has also commenced an M.Tech programme in Computer Science &amp; Engineering with
+        specialization in Artificial Intelligence from the session 2020-21. The Department also offers Ph.D. Programme in emerging areas of
+        Computer Engineering.</string>
+    <string name="MechEngg_desc">The Department of Mechanical Engineering is one of the oldest Engineering Department of Faculty of
+        Engineering and Technology, Aligarh Muslim University, Aligarh. It is one of the biggest departments in the University with a student
+        strength of about 700. It offers degrees related to Ph.D., M.Tech. (Thermal Engineering, Industrial and Production Engg., Machine Design,
+        Robotics and Automation), B.Tech. and B.E. (Evening) programs.</string>
+    <string name="college_name"><![CDATA[Zakir Hussain College of Engineering & Technology]]></string>
+    <string name="vision">To become an institute of excellence in scientific &amp; technical education and research with standards at par with national and international institutes of repute and to serve as quality human resource provider to the society and industry. </string>
+    <string name="mission"><b><big></big></b>\n<li>To offer state-of-the-art undergraduate, postgraduate and doctoral programmes.</li>
+        \n<li>To make policies and atmosphere to attract and retain best faculty.</li>
+        \n<li>To create an ambience in which new ideas and cutting-edge research flourish through effective curriculum and infrastructure so as to produce the leaders and innovators tomorrow.</li>
+        \n<li>To produce ethically strong and morally elevated human resource to serve mankind.</li>
+        \n<li>To undertake collaborative projects and consultancy for long term interaction with the academia and industry.</li>
+        \n<li>To be among top ten engineering institutes of India.</li>
+    </string>
+
+    <string name="college_address">Zakir Husain College of Engineering &amp; Technology\n
+Aligarh Muslim University\n
+Aligarh - 202002. UP, INDIA</string>
+</resources>

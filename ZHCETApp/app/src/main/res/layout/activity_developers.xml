@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context=".DevelopersActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Designed and Developed By"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:padding="20dp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        >
+        <com.google.android.material.card.MaterialCardView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+         android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:elevation="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/bg_color2"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/osama_image"
+android:layout_marginTop="@dimen/text_margin"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Osama Zaheer"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech Computer Engineering 2024 ZHCET,AMU"
+                    android:textColor="@color/white"
+                    android:padding="3dp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/lato_light"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_email_icon"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="osamazaheer057@gmail.com"
+                        android:textColor="@color/white"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_phone"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="+91 9760048079"
+                        android:textColor="@color/white"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:elevation="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/bg_color2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/shakir_image"
+android:layout_marginTop="@dimen/text_margin"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Khan Shah Ahmed Shakir Abu Asim"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech Computer Engineering 2024 ZHCET,AMU"
+                    android:textColor="@color/white"
+                    android:padding="3dp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/lato_light"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_email_icon"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="shahahmed8286@gmail.com"
+                        android:textColor="@color/white"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_phone"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="+91 8169916558"
+                        android:textColor="@color/white"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

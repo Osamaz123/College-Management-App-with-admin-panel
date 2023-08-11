@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:layout_margin="2dp"
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#DDD4D4"
+                app:sliderScrollTimeInSec="3"
+                app:sliderStartAutoCycle="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/college_name"
+                android:gravity="center"
+                android:layout_marginTop="36dp"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/About_College"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textColor"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/lato_light"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp"
+                android:backgroundTint="@color/bg_color1"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Departments"
+
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:textSize="@dimen/title_size"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@string/bold"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="8dp"
+                        android:background="#3e800f" />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Computer Engineering"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Electronics &amp;Communication Engineering"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Electrical Engineering"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+  <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mechanical Engineering"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Civil Engineering"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+
+                      <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chemical Engineering"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Petrochemical Engineering"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+
+                </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp"
+                android:backgroundTint="@color/bg_color1"
+                app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/bold"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#3e800f" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/text_margin">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_email_icon"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email ID:principal_zhcet@yahoo.com"
+                        android:textSize="@dimen/text_size"
+                        android:textColor="@color/textColor"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_map_icon"
+                        android:layout_marginTop="@dimen/text_margin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/college_address"
+                    android:layout_marginTop="@dimen/text_margin"
+
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/textColor"
+                  />
+
+
+                </LinearLayout>
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:src="@drawable/zhcet_map" />
+
+
+
+            </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>
